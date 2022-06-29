@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.github.Marcelo.F.ProdutoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.591 s <<< FAILURE! - in com.github.Marcelo.F.ProdutoTest
+testeUm  Time elapsed: 0.018 s  <<< ERROR!
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoSuchMethodError: 'org.testcontainers.utility.DockerImageName org.testcontainers.utility.DockerImageName.parse(java.lang.String)'
+
